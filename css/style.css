@@ -1,0 +1,72 @@
+@font-face {
+	font-family: 'WYekan';
+	src: url('../fonts/WebYekan.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/WebYekan.woff') format('woff'),
+		 url('../fonts/WebYekan.ttf') format('truetype'),
+		 url('../fonts/WebYekan.svg') format('svg');
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: 'WYekan';
+	src: url('../fonts/WebYekan.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/WebYekan.woff') format('woff'),
+		 url('../fonts/WebYekan.ttf') format('truetype'),
+		 url('../fonts/WebYekan.svg') format('svg');
+	font-weight: bold;
+}
+
+body {
+	background:#eee;
+	margin:0;
+	padding:0;
+	min-height:100%;
+	font-family: WYekan, Tahoma;
+	font-size: 16px;
+	cursor: default;
+}
+
+a {
+	color: #333;
+	text-decoration: none;
+}
+
+#page {
+	position:absolute;
+	top:0;
+	right:28%;
+	box-sizing: border-box;
+	margin:0 auto;
+	background:#fff;
+	width:50%;
+	min-height:100%;
+	padding:25px 3%;
+	border-left: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+}
+
+@media(max-width: 750px)
+{
+	#page {
+		width:90%;
+		right:5%
+	}
+}
+
+h1 {
+	border-bottom: 1px dashed #ccc;
+	padding-bottom: 10px;
+	margin-bottom: 4px;
+}
+
+li{
+	font-size: 19px;
+	margin-bottom: 6px;
+	cursor: default;
+}
+
+li ul li{
+	font-size: 16px;
+	margin-bottom: 1px;
+	cursor: pointer;
+}
