@@ -70,3 +70,14 @@ li ul li{
 	margin-bottom: 1px;
 	cursor: pointer;
 }
+
+.latest {
+	display: inline-block;
+	background: #f39c12;
+	color: #fff;
+	text-shadow: 0 1px rgba(0, 0, 0, 0.5);
+	box-shadow: 1px 1px rgba(0, 0, 0, 0.3);
+	font-size: 12px;
+	border-radius: 4px;
+	padding: 1px 5px;
+}
