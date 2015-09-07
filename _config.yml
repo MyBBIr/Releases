@@ -9,6 +9,7 @@ versions:
   code: 1617
 - name: 1.8.5
   code: 1805
+<<<<<<< HEAD
 - name: 1.8.4
   code: 1804
 - name: 1.6.16

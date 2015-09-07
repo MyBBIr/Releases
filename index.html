@@ -20,6 +20,9 @@ title: نسخه‌ها
 					<ul>
 						<li><a href="{{ version.code }}/lang.zip" target="_blank">فارسی‌ساز</a></li>
 						<li><a href="{{ version.code }}/mybb.zip" target="_blank">نسخه‌ی کامل به همراه فارسی‌ساز</a></li>
+						{% if version.merge %}
+							<li><a href="merge/merge_{{ version.code }}.zip" target="_blank">سیستم ادغام نسخه‌ی {{ version.name }}</a></li>
+						{% endif %}
 					</ul>
 				</li>
 			{% endfor %}
