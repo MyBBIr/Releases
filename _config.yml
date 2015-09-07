@@ -1,10 +1,14 @@
 versions:
+- name: 1.8.6
+  code: 1806
+  latest: true
+- name: 1.6.18
+  code: 1618
+  latest: true
 - name: 1.6.17
   code: 1617
-  latest: true
 - name: 1.8.5
   code: 1805
-  latest: true
 - name: 1.8.4
   code: 1804
 - name: 1.6.16
