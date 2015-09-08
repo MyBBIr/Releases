@@ -2,6 +2,7 @@ versions:
 - name: 1.8.6
   code: 1806
   latest: true
+  merge: true
 - name: 1.6.18
   code: 1618
   latest: true
