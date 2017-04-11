@@ -1,7 +1,10 @@
 versions:
+- name: 1.8.11
+  code: 1811
+  merge: true
+  latest: true
 - name: 1.8.10
   code: 1810
-  latest: true
 - name: 1.8.9
   code: 1809
 - name: 1.8.8
