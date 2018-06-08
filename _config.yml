@@ -1,7 +1,19 @@
 versions:
+- name: 1.8.12
+  code: 1812
+  latest: true
+- name: 1.8.11
+  code: 1811
+  merge: true
+- name: 1.8.10
+  code: 1810
+- name: 1.8.9
+  code: 1809
+- name: 1.8.8
+  code: 1808
+  merge: true
 - name: 1.8.7
   code: 1807
-  latest: true
   merge: true
 - name: 1.8.6
   code: 1806
